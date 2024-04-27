@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jersey+20+Charted&display=swap');
+
+h1{
+    text-align: center;
+    color: rgb(102, 170, 235);
+    font-style: oblique;
+    box-shadow: 5ch 5px 5ch black;
+    animation: infinite;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+}
+
+.imgThings{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-style:groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+}
+p{
+    font-family: "Jersey 20 Charted", sans-serif;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(#a3b18a,  #3a5a40);
+    transition: 0.5s ease-in;
+
+}
+
+button:hover{
+    background: linear-gradient(#b8f2e6,  #5e6472);
+}
+
+button a{
+        color: white;
+        text-decoration: none;
+         font-weight: bold;
+}
+
+button a:hover{
+    color: rgb(0, 0, 0);
+}
