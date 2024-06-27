@@ -1,0 +1,14 @@
+input{
+    width: 50px;
+    margin: 5px;
+}
+
+#operador{
+    width: 20px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(18, 127, 170);
+    color: white;
+}
